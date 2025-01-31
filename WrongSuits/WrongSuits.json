@@ -1,0 +1,16 @@
+{
+	"id": "WrongSuits",
+	"name": "WrongSuits!",
+	"display_name": "WrongSuits!",
+	"author": ["Sarah", "Leah"],
+	"description": "A texture mod for balatro. Art by Sarah, Leah just kinda slapped it togeather",
+	"prefix": "WS",
+	"main_file": "WrongSuits.lua",
+	"priority": 0,
+	"badge_colour": "",
+	"badge_text_colour": "",
+	"version": "1.0.0",
+	"dependencies": ["Steamodded (>=1.*)", 
+	"Lovely (>=0.6)"
+],
+}
