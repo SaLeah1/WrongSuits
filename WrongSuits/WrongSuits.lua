@@ -8,15 +8,14 @@
 ----------------------------------------------
 ------------MOD CODE -------------------------
 
-local atlas_key = 'WS_atlas' -- Format: PREFIX_KEY
--- See end of file for notes
-local atlas_path = 'WrongSuits_dark.png' -- Filename for the image in the asset folder
-local atlas_path_hc = 'WrongSuits_light.png' -- Filename for the high-contrast version of the texture, if existing
+local atlas_key = 'WS_atlas'
+local atlas_path = 'WrongSuits_dark.png'
+local atlas_path_hc = 'WrongSuits_light.png' 
 
-local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
-local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",} -- Which ranks to replace
+local suits = {'hearts', 'clubs', 'diamonds', 'spades'}
+local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",}
 
-local description = 'A texture pack for balatro! All the art was done by Sarah, Leah just kinda slapped it togeather' -- English-language description, also used as default
+local description = 'A texture pack for balatro! All the art was done by Sarah, Leah just kinda slapped it togeather' 
 
 SMODS.Atlas{  
     key = atlas_key..'_lc',
